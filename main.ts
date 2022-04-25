@@ -24,7 +24,7 @@ basic.forever(function () {
     while (gameOn == true) {
         basic.pause(100)
     }
-    score += score
+    game.addScore(score)
     game.gameOver()
 })
 basic.forever(function () {
